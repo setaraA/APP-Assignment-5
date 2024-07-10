@@ -50,7 +50,7 @@ body{
             padding-left: 20px;
             padding-top: 49px;
             margin-top: 20px;
-            flex-position: relative;
+            position: relative;
         }
         .about-us img{
             width: 750px;
@@ -62,7 +62,7 @@ body{
             font-size: 20px;
             background-color:blanchedalmond;
             text-align: center;
-            position: absolute;
+            position: relative;
              padding: 7px;
              width: 300px;
              opacity:0;
@@ -90,9 +90,9 @@ body{
         .row{
             display: flex;
         }
-        .team-member-name:{
+        .team-member-name {
             display: block;
-            flex-position: absolute;
+            position: absolute;
         }
 
         footer{
